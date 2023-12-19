@@ -1,7 +1,81 @@
 body {
-  background: gray;
+  background: rgb(154, 153, 153);
+}
+.artist-1 {
+  background: rgb(160, 160, 160);
+}
+.h1-artists {
+  font-size: 60px;
 }
 h1 {
+  font-size: 56px;
   text-align: center;
   color: rgb(58, 16, 16);
+}
+h3 {
+  font-size: 20px;
+  color: #3a3a3a;
+  text-align: center;
+  justify-content: space-evenly;
+}
+a {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(154, 153, 153);
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.a-link {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(145, 106, 7);
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+.container img:hover {
+  transform: scale(1.4);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button {
+  padding: 5px 8px;
+  background-color: rgb(58, 16, 16);
+  border: 3px solid #242323;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: rgb(145, 106, 7);
+    opacity: 0.8;
+  }
+}
+.container-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.artist-info {
+  color: #3a3a3a;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  max-width: 350px;
+  border: 6px solid rgb(154, 153, 153);
+  padding: 5px;
 }
